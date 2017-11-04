@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button ion-button icon-right (click)="loginFacebook()">
+    Iniciar sesion
+    <ion-icon name="logo-facebook"></ion-icon>
+  </button>
+  <ion-card>
+    <img src="{{urlImagen}}"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{displayName}}
+        </ion-card-title>
+      <p>
+
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,8 @@
+* conectar aplicacion con facebookapp
+ionic plugin add cordova-plugin-facebook4 --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+
+* paquetes de facebook par ionic
+npm install --save @ionic-native/facebook
+
+
+npm install -g ionic cordova
